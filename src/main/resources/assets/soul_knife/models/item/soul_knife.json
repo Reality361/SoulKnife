@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "soul_knife:item/toy_knife_item_rotated"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "soul_knife:soul_knife_has_infinite_soul_sharpness": 1
+      },
+      "model": "soul_knife:item/soul_knife_0"
+    }
+  ]
+}
