@@ -1,4 +1,4 @@
-# SoulKnife
+# Soul Knife
 A Minecraft mod that adds a soul knife whose damage increases as you kill mobs with it!
 
 # Report an issue or propose an enhancement
