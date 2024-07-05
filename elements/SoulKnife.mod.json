@@ -1,0 +1,82 @@
+{
+  "_fv": 60,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "toy_knife_item_rotated",
+    "customModelName": "Tool",
+    "customProperties": {
+      "has_infinite_soul_sharpness": {
+        "name": "SoulKnifeCheckIfHasInfiniteSoulSharpness"
+      }
+    },
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "undertale_badge_foil_rotated",
+        "customModelName": "Tool",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:has_infinite_soul_sharpness",
+              "type": "number"
+            },
+            "value": 1.0
+          }
+        ]
+      }
+    ],
+    "name": "Soul Knife",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.5,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "specialInformation": {
+      "fixedValue": [
+        "§6Attack damage increases after killing mobs."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "SoulKnifeWhenHitEntities"
+    },
+    "onItemInInventoryTick": {
+      "name": "SoulKnifeCheckIfHasInfiniteSoulSharpness"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

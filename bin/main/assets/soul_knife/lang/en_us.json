@@ -1,0 +1,11 @@
+{
+  "enchantment.soul_knife.infinite_soul_sharpness.desc": "§8Attacks will do infinite damage.",
+  "item.soul_knife.soul_knife": "Soul Knife",
+  "enchantment.soul_knife.infinite_soul_sharpness": "Infinite Soul Sharpness",
+  "enchantment.soul_knife.ultra_soul_sharpness.desc": "§8Attacks will do 100 more damage.",
+  "enchantment.soul_knife.super_soul_sharpness.desc": "§8Attacks will do 10 more damage.",
+  "enchantment.soul_knife.soul_sharpness.desc": "§8Attacks will do 1 more damage.",
+  "enchantment.soul_knife.super_soul_sharpness": "Super Soul Sharpness",
+  "enchantment.soul_knife.soul_sharpness": "Soul Sharpness",
+  "enchantment.soul_knife.ultra_soul_sharpness": "Ultra Soul Sharpness"
+}

@@ -1,0 +1,174 @@
+{
+  "mod_elements": [
+    {
+      "name": "SoulKnife",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soul_knife/models/item/soul_knife_0.json",
+          "src/main/resources/assets/soul_knife/models/item/soul_knife.json",
+          "src/main/java/net/mcreator/soulknife/item/SoulKnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulKnifeWhenHitEntities",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_knife_when_hit_entities",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soulknife/procedures/SoulKnifeWhenHitEntitiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulSharpness",
+      "type": "enchantment",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_sharpness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soulknife/enchantment/SoulSharpnessEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperSoulSharpness",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_soul_sharpness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soulknife/enchantment/SuperSoulSharpnessEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "UltraSoulSharpness",
+      "type": "enchantment",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultra_soul_sharpness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soulknife/enchantment/UltraSoulSharpnessEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "InfiniteSoulSharpness",
+      "type": "enchantment",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_soul_sharpness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soulknife/enchantment/InfiniteSoulSharpnessEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulKnifeCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_knife_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soul_knife/recipes/soul_knife_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulKnifeCheckIfHasInfiniteSoulSharpness",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_knife_check_if_has_infinite_soul_sharpness",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/soulknife/procedures/SoulKnifeCheckIfHasInfiniteSoulSharpnessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "enchantment.soul_knife.infinite_soul_sharpness.desc": "§8Attacks will do infinite damage.",
+      "item.soul_knife.soul_knife": "Soul Knife",
+      "enchantment.soul_knife.infinite_soul_sharpness": "Infinite Soul Sharpness",
+      "enchantment.soul_knife.ultra_soul_sharpness.desc": "§8Attacks will do 100 more damage.",
+      "enchantment.soul_knife.super_soul_sharpness.desc": "§8Attacks will do 10 more damage.",
+      "enchantment.soul_knife.soul_sharpness.desc": "§8Attacks will do 1 more damage.",
+      "enchantment.soul_knife.super_soul_sharpness": "Super Soul Sharpness",
+      "enchantment.soul_knife.soul_sharpness": "Soul Sharpness",
+      "enchantment.soul_knife.ultra_soul_sharpness": "Ultra Soul Sharpness"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "soul_knife",
+    "modName": "Soul Knife",
+    "version": "1.0.0",
+    "description": "Adds a soul knife whose damage increases as you kill mobs with it!",
+    "author": "36101, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "undertale_badge_foil",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.soulknife"
+  },
+  "mcreatorVersion": 202400118518
+}
