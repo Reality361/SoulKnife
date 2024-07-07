@@ -2,8 +2,8 @@
 A Minecraft mod that adds a soul knife whose damage increases as you kill mobs with it!
 
 # Report an issue or propose an enhancement
-Create an issue here on GitHub and follow the issue template.
+Create an issue here on GitHub.
 
 For feature additions, create an enhancement-tagged issue.
 
-For performance-related issues, create an issue here on GitHub. Performance on high mod count modpacks like ATM is a priority.
+For performance-related issues, create an issue here on GitHub.
